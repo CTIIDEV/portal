@@ -1,0 +1,36 @@
+.sidebar {
+  /* flex: 1; */
+  /* height: calc(100vh - 50px); */
+  /* background-color: rgb(251, 251, 255); */
+  background-image: linear-gradient(45deg, #00bb71, #7cb5ec);
+  position: sticky;
+  top: 50px;
+  width: 250px;
+}
+/* 
+.sidebarWrapper {
+  padding: 20px;
+  color: #555;
+} */
+
+.sidebarWrapper,
+.sidebarMenu,
+.menu {
+  height: 100%;
+}
+
+.sidebarMenu {
+  border-right: 5px solid;
+  border-image: linear-gradient(to bottom, #00bb71, #7cb5ec);
+}
+
+.sidebarLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sidebarSubMenu {
+  padding-left: 12px;
+}

@@ -1,0 +1,15 @@
+.manageLeaves {
+  flex: 4;
+}
+
+.leaveWidgets {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.leaveTableContainer {
+  display: flex;
+  margin-bottom: 20px;
+}

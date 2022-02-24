@@ -1,0 +1,15 @@
+.assignment{
+  flex: 4;
+}
+
+.assingmentWidgets {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.assignmentTableContainer {
+  display: flex;
+  margin-bottom: 20px;
+}

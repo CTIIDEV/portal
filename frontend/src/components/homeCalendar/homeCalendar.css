@@ -1,0 +1,60 @@
+/* .scheduleCalendar {
+  flex: 2;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 01px 0px 15px -10px rgb(0 0 0 / 75%);
+} */
+
+/* .timeCalendar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} */
+
+/* .featuredItem {
+  flex: 0.5;
+  flex-basis: 50%;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featuredTitle {
+  font-size: 20px;
+}
+
+.featuredContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredContent {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.featuredSub {
+  font-size: 15px;
+  color: gray;
+}
+
+.taskForm .buttonSubmit {
+  margin-left: 16px;
+  margin-top: 16px;
+} */
+
+.home-container__calendar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgb(124 181 236/ 30%);
+}

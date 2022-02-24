@@ -1,0 +1,81 @@
+.profile-page {
+  display: flex;
+  background: #f3f7f6;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-page__profile-container {
+  display: flex;
+  margin: 40px;
+  width: 100%;
+  height: fit-content;
+}
+
+.profile-container__information,
+.profile-container__activities {
+  display: flex;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgb(124 181 236/ 30%);
+}
+
+.profile-container__information {
+  flex: 1;
+  flex-direction: column;
+  margin-right: 20px;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.profile-container__information .information-image {
+  text-align: center;
+  align-self: center;
+}
+
+.profile-container__information .information-data {
+  margin-top: 20px;
+}
+
+/* .profile-container__information
+  .information-data
+  .information-data__description {
+  border: 1px solid;
+} */
+
+.profile-container__activities {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.profile-container__activities .activities-tabs {
+  width: 100%;
+}
+
+.profileWidgets {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profileContainer {
+  width: 100%;
+  display: flex;
+}
+
+.profileContainerLeft {
+  flex: 1;
+}
+
+.profileContainerRight {
+  flex: 2;
+}
+
+.tabs {
+  margin: 0px 20px !important;
+  padding: 30px !important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+}

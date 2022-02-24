@@ -1,0 +1,225 @@
+/* 
+  #e9f3fc 233, 243, 252
+  #bcdaf5
+  BLUE rgb(0, 124, 183) #7cb5ec
+  #4d9ce6 77, 79, 230
+*/
+/* \
+  #e6fff5
+  #ccffeb
+  #66ffc2
+  #1affa3
+  #00e68a
+  GREEN rgb(0, 187, 113) #00bb71
+*/
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container__content {
+  border-width: 0;
+  border-left: 5px solid;
+  border-image: linear-gradient(#00bb71, #7cb5ec) 0 100%;
+}
+
+.list-table__table-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.table-buttons__view,
+.modal-buttons__approve {
+  border: 1px solid #45b865;
+  background: rgb(230 255 245 / 50%);
+  color: #45b865;
+}
+
+.table-buttons__view:hover,
+.table-buttons__view:focus,
+.table-buttons__view:active,
+.modal-buttons__approve:hover,
+.modal-buttons__approve:focus,
+.modal-buttons__approve:active {
+  border: 1px solid #45b865 !important;
+  background: #45b865 !important;
+  color: #ffffff !important;
+}
+
+.table-buttons__delete {
+  color: #d61f1f;
+}
+
+.modal-buttons__reject {
+  border: 1px solid #d61f1f;
+  /* background: rgb(255 25 25 / 50%); */
+  background: rgb(255 230 245 / 50%);
+
+  color: #d61f1f;
+}
+
+.table-buttons__delete:hover {
+  border: 1px solid #d61f1f !important;
+  background: #d61f1f !important;
+  color: #ffffff !important;
+}
+
+.modal-buttons__reject:hover,
+.modal-buttons__reject:focus,
+.modal-buttons__reject:active {
+  border: 1px solid #d61f1f !important;
+  background: #d61f1f !important;
+  color: #ffffff !important;
+}
+
+.form__form {
+  padding: 20px;
+  background: #f3f7f6;
+}
+
+.form__form-readOnly,
+.form__form-items {
+  display: flex;
+  max-width: 100%;
+}
+
+.form__form-readOnly .form-readOnly__formItem:first-child,
+.form__form-items .form-items__formItem:first-child {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.form__form-readOnly .form-readOnly__formItem,
+.form__form-items .form-items__formItem {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.form__form-readOnly .form-readOnly__formItem:last-child,
+.form__form-items .form-items__formItem:last-child {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+/* .page {
+  margin: 20px;
+}
+
+.pageTitleContainer {
+  margin: 20px;
+}
+
+.pageTitle {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.componentContainer {
+  margin-bottom: 20px;
+}
+
+.componentTitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.formField {
+  margin-bottom: 20px !important;
+}
+
+.status-high {
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #d61f1f !important;
+}
+
+.status-moderate {
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #ffd301 !important;
+}
+
+.status-low {
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #7bb662 !important;
+} */
+
+/*ANTD*/
+
+/*SIDER*/
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: #45b8b5 !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  /* border-right: 3px solid #00bb71; */
+  border: 0;
+}
+
+.ant-menu-item a:hover {
+  color: #45b8b5 !important;
+}
+
+.ant-menu-item-selected,
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: #45b8b5 !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #e6fff5 !important;
+}
+
+.ant-menu-submenu:hover .ant-menu-submenu-title .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  color: #45b8b5 !important;
+}
+
+.ant-menu-submenu-selected {
+  color: #45b8b5 !important;
+}
+
+.ant-menu-sub.ant-menu-inline {
+  background: rgb(230 255 245 / 30%);
+}
+
+/*TABS*/
+.ant-tabs-nav {
+  background: rgba(230, 255, 245, 0.3);
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  background: #e6fff5;
+  padding: 10px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #45b8b5 !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #45b8b5 !important;
+}
+
+.ant-tabs-ink-bar {
+  height: 5px;
+  background: #45b8b5 !important;
+}
+
+/*ANT-PICKER*/
+.ant-picker {
+  width: 100%;
+}
+
+/*ANT-FORM*/
+.ant-form-item-with-help {
+  margin-bottom: 24px;
+}

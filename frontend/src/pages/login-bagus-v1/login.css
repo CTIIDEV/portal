@@ -1,0 +1,25 @@
+.login {
+  display: flex;
+  height: 100vh;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.loginForm {
+  padding: 20px !important;
+  background-color: rgb(240, 240, 255);
+  border-radius: 1rem;
+}
+
+.loginLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formItem {
+  margin-bottom: 20px !important;
+}

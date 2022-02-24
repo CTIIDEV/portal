@@ -1,0 +1,8 @@
+.manageSupportTickets {
+  flex: 4;
+}
+
+.manageSupportTicketsContainer {
+  display: flex;
+  margin-bottom: 20px;
+}

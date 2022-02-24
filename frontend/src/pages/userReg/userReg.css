@@ -1,0 +1,42 @@
+/* .userReg {
+  flex: 4;
+}
+
+.userRegWidgets {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} */
+
+.user-register-page {
+  display: flex;
+  background: #f3f7f6;
+  height: 100%;
+  width: 100%;
+}
+
+.user-register-page__user-register-container {
+  display: flex;
+  margin: 40px;
+  width: 100%;
+}
+
+.user-register-container__form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgb(124 181 236/30%);
+}
+
+.user-register-container__terms {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgb(124 181 236/30%);
+}

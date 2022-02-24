@@ -1,0 +1,18 @@
+.layout-sider {
+  background: #ffffff !important;
+  overflow: auto;
+  height: 100vh;
+  left: 0;
+}
+
+.layout-sider__logo {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 48px;
+  margin: 16px;
+}
+
+.layout-sider__logo img {
+  width: 80%;
+}
